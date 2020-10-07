@@ -1,4 +1,8 @@
-public class Job implement Runnable{
+/**
+* don't know if this is a correct format of documentation but thats just an example
+* */
+
+public class Job implements Runnable{
     private int JobNum;
     Job(int JobNum){this.JobNum = JobNum;}
     
